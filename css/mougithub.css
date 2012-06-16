@@ -1,0 +1,131 @@
+*
+margin:0;
+padding:0;
+border:0;
+
+body
+font:13px arial,helvetica,freesans,clean,sans-serif;
+color:black;
+background-color:#F8F8F8;
+padding:10px;
+
+h1
+border-top:4px solid #aaa;
+padding-top:.5em;
+margin-top:1.5em;
+
+h2
+margin:1em 0;
+font-size:22px;
+margin-top:1.5em;
+border-top:4px solid #e0e0e0;
+padding-top:.5em;
+
+h3
+margin:1em 0;
+margin-top:1em;
+
+h4
+
+h5
+
+h6
+
+p
+margin:1em 0;
+line-height:1.5em;
+
+ul
+margin:1em 0 1em 2em;
+
+ol
+margin:1em 0 1em 2em;
+
+li
+margin-top:.5em;
+margin-bottom:.5em;
+
+em
+
+strong
+
+a
+color:#4183c4;
+text-decoration:none;
+
+hr
+border:1px solid #ddd;
+
+blockquote
+margin:1em 0;
+border-left:5px solid #ddd;
+padding-left:.6em;
+color:#555;
+
+img
+max-width:100%;
+
+pre
+font:12px Monaco,monospace;
+margin:1em 0;
+font-size:12px;
+background-color:#eee;
+border:1px solid #ddd;
+padding:5px;
+line-height:1.5em;
+color:#444;
+overflow:auto;
+-webkit-box-shadow:rgba(0,0,0,0.07) 0 1px 2px inset;
+-webkit-border-radius:3px;
+-moz-border-radius:3px;
+border-radius:3px;
+
+code
+font:12px Monaco,monospace;
+font-size:12px;
+background-color:#f8f8ff;
+color:#444;
+padding:0 .2em;
+border:1px solid #dedede;
+
+table
+font-size:inherit;
+font:100%;
+margin:1em;
+
+thead
+
+tbody
+
+tr
+
+td
+border-bottom:1px solid #ddd;
+padding:.2em 1em;
+
+h1first
+margin-top:0;
+padding-top:.25em;
+border-top:none;
+
+childul
+margin-top:0;
+margin-bottom:0;
+
+childol
+margin-top:0;
+margin-bottom:0;
+
+bqchildp
+margin-bottom:0;
+font-size: 14px;
+
+tth
+border-bottom:1px solid #bbb;
+padding:.2em 1em;
+
+prechildcode
+padding:0;
+font-size:12px;
+background-color:#eee;
+border:none;

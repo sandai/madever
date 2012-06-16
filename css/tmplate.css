@@ -1,0 +1,85 @@
+*
+margin:0;
+padding:0;
+border:0;
+
+body
+padding: 10px;
+
+h1
+
+h2
+
+h3
+
+h4
+
+h5
+
+h6
+
+p
+
+ul
+margin:1em 0 1em 2em;
+
+ol
+margin:1em 0 1em 2em;
+
+li
+margin-top:.5em;
+margin-bottom:.5em;
+
+em
+
+strong
+
+a
+
+hr
+
+blockquote
+
+img
+
+pre
+
+code
+
+table
+
+thead
+
+tbody
+
+tr
+
+td
+
+-- h1:first-child
+--最初のh1タグだけCSSを変える場合に使う。必要ないなら削除
+h1first
+
+-- ul > ul, ol > ul
+-- 通常のulやolのtopとbottomのmarginが特殊ならこちらもいじる必要があるかもしれない
+childul
+margin-top:0;
+margin-bottom:0;
+
+childol
+margin-top:0;
+margin-bottom:0;
+
+-- blockquote > p
+-- blockquote以下のpタグに対するcss
+bqchildp
+margin-bottom:0;
+font-size: 14px;
+
+-- table > th
+-- tableで枠線をつけるなら必要
+tth
+
+-- pre > code
+-- マークダウンの引用で使う
+prechildcode
