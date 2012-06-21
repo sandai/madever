@@ -3,7 +3,7 @@
 
 Markdown文書からEvernoteのリッチテキストに変換したり、EvernoteのリッチテキストからMarkdown文書に変換したりといったことができる。
 
-![](https://github.com/sandai/madever/raw/master/sample/img02.png)
+![](sample/img02.png)
 
 このように、Evernoteクライアント上で構造化されたデザイン文書を作成することが可能で、デザインは自分でカスタマイズできる。
 
@@ -19,7 +19,7 @@ gitを利用していなければ下記のURLから普通にダウンロード�
 
 [https://github.com/sandai/madever/downloads](https://github.com/sandai/madever/downloads)
 
-madeverディレクトリをダウンロードできたら、
+ダウンロードできたら、解凍してできたディレクトリの名前を`madever`に変更して、
 
 	~/Library/Scripts
 	
@@ -55,7 +55,7 @@ madever側のスクリプトでは`~/.cabal/bin/pandoc`と`/usr/local/bin/pandoc
 
 その場合は自分でパスを設定する必要がある。`madever/madever.scpt`をAppleScriptエディタで開いて、
 
-![](https://github.com/sandai/madever/raw/master/sample/img01.png)
+![](sample/img01.png)
 
 任意のパスを記述してほしい。
 
@@ -68,20 +68,20 @@ Evernoteでmarkdownやリッチテキストを変換するにはmadeverディレ
 
 AppleScriptエディタ.appを開いて環境設定画面のチェックを画像のように入れる。
 
-![](https://github.com/sandai/madever/raw/master/sample/img03.png)
+![](sample/img03.png)
 
 するとメニューバーにスクリプトのアイコンが表示されるのでそこからmadeverが実行できる。
 
-![](https://github.com/sandai/madever/raw/master/sample/img04.png)
+![](sample/img04.png)
 
 ## 4.2. Alfredから実行
 [Alfred](http://www.alfredapp.com/)はランチャーアプリ。[appstore](http://itunes.apple.com/jp/app/alfred/id405843582)からインストールできる。インストールしたらメニュバーの「Preferences…」を次のように設定する。
 
-![](https://github.com/sandai/madever/raw/master/sample/img05.png)
+![](sample/img05.png)
 
 あとはホットキーを押して下の画像のように呼び出すと実行できる。
 
-![](https://github.com/sandai/madever/raw/master/sample/img06.png)
+![](sample/img06.png)
 
 
 ### 4.2.1. Alfredで利用できない場合
@@ -103,24 +103,24 @@ Alfredはspotlightのインデックスを利用している。よって、`~/Li
 
 ショートカットを`⌘R`に設定して`madever.scpt`を選択すれば、Evernote上で `⌘R`を押すと実行できるようになる。
 
-![](https://github.com/sandai/madever/raw/master/sample/img07.png)
+![](sample/img07.png)
 
 ### 4.3.2. SparkでLibraryディレクトリが見つからない場合
 
 OS X Lion以降であれば下の画像のようにLibraryディレクトリがSparkで表示されていないかもしれない。
 
-![](https://github.com/sandai/madever/raw/master/sample/img08.png)
+![](sample/img08.png)
 
 その場合は、[こちら](http://macfan.jp/guide/2011/07/26/lion_2.html)の方法でまずFinderでLibraryディレクトリを表示して、ScriptsディレクトリをDrag&DropでSparkのウィンドウに持っていけばmadeverディレクトリが表示される。
 
-![](https://github.com/sandai/madever/raw/master/sample/img09.png)
+![](sample/img09.png)
 
 
 ## 4.4 madeverの操作
 
 上記のいずれかの方法で`madever.scpt`を実行すると、下の画像のように文書をmarkdownにするかhtml(リッチテキスト)にするかダイアログが表示されるので、どちらかを選択すればあとは自動で全て行われる。
 
-![](https://github.com/sandai/madever/raw/master/sample/img12.png)
+![](sample/img12.png)
 
 # 5. theme
 
@@ -130,11 +130,11 @@ madeverでは自分で文書のデザインをCSSによって作成すること�
 
 `madever/themes/template.txt`をコピーして名前を変更し適当なエディタで編集する。
 
-![](https://github.com/sandai/madever/raw/master/sample/img14.png)
+![](sample/img14.png)
 
 事前に利用できるセレクタは限られているので、テンプレートの通りにセレクタを利用しプロパティを設定しなければならない。
 
-![](https://github.com/sandai/madever/raw/master/sample/img10.png)
+![](sample/img10.png)
 
 ## 5.1.1. 書式
 
@@ -179,7 +179,7 @@ madeverでは自分で文書のデザインをCSSによって作成すること�
 
 テーマを変更するには`madever/loadtheme.scpt`をAppleScriptエディタでを開き`property filename: ""`に変更したいテーマのファイル名を指定して保存すれば変更される。
 
-![](https://github.com/sandai/madever/raw/master/sample/img11.png)
+![](sample/img11.png)
 
 
 ## 5.3. 作成したテーマを利用する前に
@@ -269,7 +269,7 @@ madeverでもこの記述に対応しているが、Drag&Dropで挿入した画�
 
 以下の画像のようにmarkdownの文書でも画像はDrag&Dropして文書に挿入すれば、リッチテキストに変換してもそのまま表示されるようになっている。
 
-![](https://github.com/sandai/madever/raw/master/sample/img13.png)
+![](sample/img13.png)
 
 ## 6.3. 結局どうすればいいか
 
