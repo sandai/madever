@@ -15,11 +15,11 @@ Markdown文書からEvernoteのリッチテキストに変換したり、Evernot
 	cd Scripts
 	git clone git://github.com/sandai/madever.git
 
-gitを利用していなければ下記のURLから普通にダウンロード。
+or 
 
-[https://github.com/sandai/madever/downloads](https://github.com/sandai/madever/downloads)
+[https://github.com/sandai/madever/zipball/master](https://github.com/sandai/madever/zipball/master)
 
-ダウンロードできたら、解凍してできたディレクトリの名前を`madever`に変更して、
+gitを利用していなければ上記のURLから普通にダウンロード。ダウンロードできたら解凍してできたディレクトリの名前を`madever`に変更して、
 
 	~/Library/Scripts
 	
