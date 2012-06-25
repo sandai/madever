@@ -59,7 +59,7 @@ madever側のスクリプトでは`~/.cabal/bin/pandoc`と`/usr/local/bin/pandoc
 
 任意のパスを記述してほしい。
 
-# 4. Use
+# 4. use
 Evernoteでmarkdownやリッチテキストを変換するにはmadeverディレクトリにある`madever/madever.scpt`を実行する。実行方法はいくつかあるが最も基本的だと思われる方法を以下に3挙げる。
 
 個人的には3つ目の[Spark](http://www.shadowlab.org/softwares/spark.php)を推奨する。
@@ -194,19 +194,7 @@ madeverで利用できるMarkdown記法は基本的に通常の記法と違い�
 
 コンバータのPandocに依存しているため通常のMarkdown記法とはいくつか異なる部分がある。
 
-### 6.1.1. 改行がバックスラッシュ
-[http://johnmacfarlane.net/pandoc/README.html#paragraphs](http://johnmacfarlane.net/pandoc/README.html#paragraphs)
-
-通常Markdown記法は**行末に2つ以上スペース**を入れることで改行が行われるようになっている。Pandocでもそれは同じだが、バックスラッシュ(`\`)でも行われるようになっている。
-
-~~~
-行末にバックスラッシュ\
-をいれると改行になる。
-~~~
-
-リッチテキストからmarkdownに変換した場合に改行はバックスラッシュ(`\`)で表示されているので注意してほしい。
-
-### 6.1.2. リストに行が空く
+### 6.1.1. リストに行が空く
 
 [http://johnmacfarlane.net/pandoc/README.html#compact-and-loose-lists](http://johnmacfarlane.net/pandoc/README.html#compact-and-loose-lists)
 
@@ -244,7 +232,7 @@ madeverで利用できるMarkdown記法は基本的に通常の記法と違い�
 
 このような形で変換される。
 
-### 6.1.3. 引用のネスト
+### 6.1.2. 引用のネスト
 [http://johnmacfarlane.net/pandoc/README.html#block-quotations](http://johnmacfarlane.net/pandoc/README.html#block-quotations)
 
 ~~~
@@ -255,7 +243,7 @@ madeverで利用できるMarkdown記法は基本的に通常の記法と違い�
 
 少し通常と書き方が異なるので注意。詳しくは上記URL先を参照。
 
-### 6.1.4. tableのalign
+### 6.1.3. tableのalign
 
 リッチテキストからmarkdownに戻したときにalign属性が無効となる。そもそもmarkdownで表を書くのはおすすめしないので、あまり問題はないと思われるが。
 
@@ -273,12 +261,11 @@ madeverでもこの記述に対応しているが、Drag&Dropで挿入した画�
 
 ## 6.3. 結局どうすればいいか
 
-- 文末のバックスラッシュ(`\`)は改行であること
 - リストは空行ができること
 - 引用のネストは通常と異なること
 - 画像はMarkdown記法で挿入しなくても良いこと
 
-これらのことがわかればあとは基本的に問題ない。
+これらのことがわかれば基本的に問題ない。
 
 # Contact
 
@@ -288,4 +275,7 @@ madeverでもこの記述に対応しているが、Drag&Dropで挿入した画�
 
 # History
 
-21/06/2012 公開
+- 25/06/2012
+	- htmlからmarkdownにしたときに改行の表記をバックスラッシュからスペース2つに変更
+	- 既にテーマが適用されているノートで、別のテーマを設定してmarkdownに変換した場合に一部のcssが残ってしまうバグを修正
+- 21/06/2012 公開
