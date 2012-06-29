@@ -69,6 +69,7 @@ border-radius:5px;
 
 img
 max-width:100%;
+margin: 15px 0;
 
 pre
 padding:5px;
